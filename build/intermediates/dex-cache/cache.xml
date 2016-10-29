@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_9cf1e222c350022f8a06109cf8dff46a77dbf13d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_c5144d067a9fc355569dc2c6cd9ea25e9c2dc510/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_9e1bbb17bc96f390e70f4a4da288dd9e478ec196/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_8adda4312e823f4a58a39413b162688b5b763635/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_f97730bbdb3238535d77440b23ac1396485fd1ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_70583e91cd2f057881f9100c176b159b94dab638/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ca26c22b02b90e5d853655fd8021a5db5b22966c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_efd1b412aa4a40f8bc8194be8419a8566d75b55f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_656344a1b2a5d18ab280270d19b54ff959ab0e13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7d6042081469a96140b8f3fae339d746c62c9da3">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10af488b583c1cd835a03b59f8301928b185d44a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_60ed56bd92f8b1768438a48f597b3c8c44c9682f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_8e5f09fcef0dccbc8ad4909875112e5594b07d58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_23f665d7f1e7e564ef998437074ac64237cf9291/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_8e66cda6f06598faa371fee0761138ec0ecc8d82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_c5bfd065a9c10e72615199b0b94f24fe9e5bd293/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4c8121fa7b46aefadb90a2b011c921a56f2e8117">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4425f0d61b75acf0328d5ee18a4a515e89d3b06e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_17f603a70b84a6c00d4d47463abbb96469fe4fa8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_2cb565269fad958815bfcf9603cb9bcc6f58acf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a0bdf70123d26dd83d8462d602b3a83a41934cf6">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/in.srain.cube-ultra-ptr-1.0.11_c08ddf6dd4375b8140514dfe101bf27d46a9f5d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_22e5a809d0cd2fa629d9e81c766f0e23e19b02f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_39dfbac244a4407833bec58ededb659e891fe4e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_27f69c674c31522cc291cc173db1e3c8311768d8/classes.dex" />
+    </item>
+
+</items>

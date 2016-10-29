@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewPlus</string>
+    <string name="loading">加载中...</string>
+    <string name="load_all">已经全部加载完成</string>
+</resources>
