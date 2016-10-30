@@ -57,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ca26c22b02b90e5d853655fd8021a5db5b22966c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,11 +75,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ca26c22b02b90e5d853655fd8021a5db5b22966c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7d6042081469a96140b8f3fae339d746c62c9da3">
+        sha1="5f6cc660832e28b1b47bc7b1c7b4a0fbf3febf81">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10af488b583c1cd835a03b59f8301928b185d44a/classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4c8121fa7b46aefadb90a2b011c921a56f2e8117">
+        sha1="2f737e6696151395892003439e03a939a1f17d1f">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4425f0d61b75acf0328d5ee18a4a515e89d3b06e/classes.dex" />
     </item>
     <item
@@ -153,6 +153,15 @@
         revision="24.0.2"
         sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_17f603a70b84a6c00d4d47463abbb96469fe4fa8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.1.1_608eaae4d7a89d2e2b1295459f29ed753262273a/classes.dex" />
     </item>
     <item
         is-multidex="true"

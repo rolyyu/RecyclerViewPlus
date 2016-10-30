@@ -30,6 +30,7 @@ dependencies {
     compile "com.android.support:support-v4:$rootProject.ext.supportLibraryVersion"
     compile "com.android.support:design:$rootProject.ext.supportLibraryVersion"
     compile "com.android.support:recyclerview-v7:$rootProject.ext.supportLibraryVersion"
+    compile "com.android.support:cardview-v7:$rootProject.ext.supportLibraryVersion"
     //ButterKnife
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'com.jakewharton:butterknife:8.4.0'

@@ -6,6 +6,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onRefreshBegin(PtrFrameLayout frame) {
-
+                showData();
                 hidePtyLayout();
             }
         });
@@ -75,18 +76,17 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         list = new ArrayList<>();
-        for (int i = 0; i < 20; i++)
-            list.add(i + "");
+        for (int i = 0; i < Constant.images.length; i++)
+            list.add(Constant.images[i]);
         headerView = LayoutInflater.from(this).inflate(R.layout.item_header, null);
         footerView = LayoutInflater.from(this).inflate(R.layout.item_footer, null);
         loadingView = this.getLayoutInflater().inflate(R.layout.load_more_custom, null);
         loadAllView = this.getLayoutInflater().inflate(R.layout.load_more_complete, null);
-        showData();
     }
 
     private void loadMore() {
-        for (int i = 0; i < 20; i++)
-            list.add(i + "");
+        for (int i = 0; i < Constant.images.length; i++)
+            list.add(Constant.images[i]);
         if (page == 4) {
             adapter.setLoadAll(true);
             //加载完成用Footer
@@ -119,7 +119,8 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                    detaY += dy;
+                    detaY = adapter.getFirstVisiblePosition(recyclerView.getLayoutManager());
+                    Log.d("detaY", detaY + "");
                 }
             });
             adapter.addLoadingView(loadingView);
