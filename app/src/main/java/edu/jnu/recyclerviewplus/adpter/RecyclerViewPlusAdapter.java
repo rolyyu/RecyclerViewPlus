@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import butterknife.BindView;
@@ -38,7 +40,11 @@ public class RecyclerViewPlusAdapter extends BaseAdapter {
     @Override
     protected void onBindView(RecyclerView.ViewHolder holder, int position) {
         final ViewHolder viewHolder = (ViewHolder)holder;
-        viewHolder.text.setText(list.get(position));
+        Picasso.with(context)
+                .load(list.get(position))
+                .placeholder(context.getResources().getDrawable(R.mipmap.ic_launcher))
+                .error(context.getResources().getDrawable(R.mipmap.ic_launcher))
+                .into(viewHolder.image);
     }
 
     @Override
@@ -51,8 +57,6 @@ public class RecyclerViewPlusAdapter extends BaseAdapter {
     public static class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.image)
         ImageView image;
-        @BindView(R.id.text)
-        TextView text;
 
         ViewHolder(View view) {
             super(view);

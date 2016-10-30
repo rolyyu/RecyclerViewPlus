@@ -427,6 +427,39 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
     }
 
     /**
+     * 获取第一条展示的位置
+     *
+     * @return
+     */
+    public int getFirstVisiblePosition(RecyclerView.LayoutManager mLayoutManager) {
+        int position;
+        if (mLayoutManager instanceof LinearLayoutManager) {
+            position = ((LinearLayoutManager) mLayoutManager).findFirstVisibleItemPosition();
+        } else if (mLayoutManager instanceof StaggeredGridLayoutManager) {
+            StaggeredGridLayoutManager layoutManager = (StaggeredGridLayoutManager) mLayoutManager;
+            int[] lastPositions = layoutManager.findFirstVisibleItemPositions(new int[layoutManager.getSpanCount()]);
+            position = getMinPositions(lastPositions);
+        } else {
+            position = 0;
+        }
+        return position;
+    }
+
+    /**
+     * 获得当前展示最小的position
+     *
+     * @param positions
+     * @return
+     */
+    private int getMinPositions(int[] positions) {
+        int minPosition = Integer.MAX_VALUE;
+        for (int position:positions) {
+            minPosition = Math.min(minPosition, position);
+        }
+        return minPosition;
+    }
+
+    /**
      * Header、Footer、加载跟多 Holder
      */
     private class ViewHolder extends RecyclerView.ViewHolder {
