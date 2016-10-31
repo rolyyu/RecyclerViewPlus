@@ -111,14 +111,10 @@ public class MainActivity extends AppCompatActivity {
                     loadMore();
                 }
             });
-            adapter.addOnScrollListener(new BaseAdapter.OnScrollListener() {
-                @Override
-                public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-
-                }
-
+            recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
                 @Override
                 public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                    super.onScrolled(recyclerView, dx, dy);
                     detaY = adapter.getFirstVisiblePosition(recyclerView.getLayoutManager());
                     Log.d("detaY", detaY + "");
                 }

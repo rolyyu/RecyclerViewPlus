@@ -45,7 +45,6 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
     private OnLoadMoreListener onLoadMoreListener;
     private OnItemClickListener onItemClickListener;
     private OnItemLongClickListener onItemLongClickListener;
-    private OnScrollListener onScrollListener;
 
     public interface OnLoadMoreListener {
         void onLoadMore();
@@ -57,12 +56,6 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
 
     public interface OnItemLongClickListener {
         void onItemLongClick(View view, int position);
-    }
-
-    public interface OnScrollListener {
-        void onScrollStateChanged(RecyclerView recyclerView, int newState);
-
-        void onScrolled(RecyclerView recyclerView, int dx, int dy);
     }
 
     /**
@@ -91,15 +84,6 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
      */
     public void setOnItemLongClickListener(OnItemLongClickListener onItemLongClickListener) {
         this.onItemLongClickListener = onItemLongClickListener;
-    }
-
-    /**
-     * 设置RecyclerView的滑动监听
-     *
-     * @param onScrollListener
-     */
-    public void addOnScrollListener(OnScrollListener onScrollListener) {
-        this.onScrollListener = onScrollListener;
     }
 
     @Override
@@ -361,8 +345,6 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
                 @Override
                 public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                     super.onScrollStateChanged(recyclerView, newState);
-                    if (onScrollListener != null)
-                        onScrollListener.onScrollStateChanged(recyclerView, newState);
                     RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
                     final int visibleItemCount = layoutManager.getChildCount();
                     final int totalItemCount = layoutManager.getItemCount();
@@ -380,13 +362,6 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
                             }
                         }, 1000);
                     }
-                }
-
-                @Override
-                public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                    super.onScrolled(recyclerView, dx, dy);
-                    if (onScrollListener != null)
-                        onScrollListener.onScrolled(recyclerView, dx, dy);
                 }
             });
         }
