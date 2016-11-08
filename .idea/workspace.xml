@@ -2020,6 +2020,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="device.picker.selection" value="191de709" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/StarWars.Android-master" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -2329,8 +2330,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="22" width="1235" height="778" extended-state="6" />
-    <editor active="false" />
+    <frame x="45" y="22" width="1235" height="778" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
