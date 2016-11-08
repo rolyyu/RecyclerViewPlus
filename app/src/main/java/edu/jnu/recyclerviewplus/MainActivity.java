@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private int lmType = 1;
 
     private int page = 1;
-    private int detaY = 0;
+    private int firstVisibleItem = 0;
 
     private List<String> list;
     private RecyclerViewPlusAdapter adapter;
@@ -63,11 +63,12 @@ public class MainActivity extends AppCompatActivity {
         ptrClassicFrame.setPtrHandler(new PtrHandler() {
             @Override
             public boolean checkCanDoRefresh(PtrFrameLayout frame, View content, View header) {
-                return detaY == 0 && PtrDefaultHandler.checkContentCanBePulledDown(frame, content, header);
+                return firstVisibleItem == 0 && PtrDefaultHandler.checkContentCanBePulledDown(frame, content, header);
             }
 
             @Override
             public void onRefreshBegin(PtrFrameLayout frame) {
+
                 showData();
                 hidePtyLayout();
             }
@@ -115,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                     super.onScrolled(recyclerView, dx, dy);
-                    detaY = adapter.getFirstVisiblePosition(recyclerView.getLayoutManager());
-                    Log.d("detaY", detaY + "");
+                    firstVisibleItem = adapter.getFirstVisiblePosition(recyclerView.getLayoutManager());
+                    Log.d("detaY", firstVisibleItem + "");
                 }
             });
             adapter.addLoadingView(loadingView);
@@ -162,6 +163,17 @@ public class MainActivity extends AppCompatActivity {
                     ptrClassicFrame.refreshComplete();
                 }
             }, 500);
+        }
+    }
+
+    static class ViewHolder {
+        @BindView(R.id.header_title)
+        TextView headerTitle;
+        @BindView(R.id.header_intro)
+        TextView headerIntro;
+
+        ViewHolder(View view) {
+            ButterKnife.bind(this, view);
         }
     }
 }
