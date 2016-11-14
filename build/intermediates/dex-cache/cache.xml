@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7d41241289ae08d6ea8ede5597636878e1b399a1">
+        sha1="999b0e8a8eca33831c941767377ab826fdf21460">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10af488b583c1cd835a03b59f8301928b185d44a/classes.dex" />
     </item>
     <item
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b9c6f42e984e8d46ee7fdec1ea3da0f17aef3853">
+        sha1="ecfa89efd8cc1838d0425066731af731b6d2df0b">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4425f0d61b75acf0328d5ee18a4a515e89d3b06e/classes.dex" />
     </item>
     <item
