@@ -52,7 +52,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        init();
+        headerView = LayoutInflater.from(this).inflate(R.layout.item_header, null);
+        footerView = LayoutInflater.from(this).inflate(R.layout.item_footer, null);
+        loadingView = this.getLayoutInflater().inflate(R.layout.load_more_custom, null);
+        loadAllView = this.getLayoutInflater().inflate(R.layout.load_more_complete, null);
+
+        initData();
 
         ptrClassicFrame.post(new Runnable() {
             @Override
@@ -75,14 +80,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void init() {
+    private void initData() {
         list = new ArrayList<>();
         for (int i = 0; i < Constant.images.length; i++)
             list.add(Constant.images[i]);
-        headerView = LayoutInflater.from(this).inflate(R.layout.item_header, null);
-        footerView = LayoutInflater.from(this).inflate(R.layout.item_footer, null);
-        loadingView = this.getLayoutInflater().inflate(R.layout.load_more_custom, null);
-        loadAllView = this.getLayoutInflater().inflate(R.layout.load_more_complete, null);
     }
 
     private void loadMore() {
