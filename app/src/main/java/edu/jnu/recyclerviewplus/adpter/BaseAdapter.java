@@ -343,13 +343,13 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<RecyclerView.View
         if (onLoadMoreListener != null) {
             recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
                 @Override
-                public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                    super.onScrollStateChanged(recyclerView, newState);
+                public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                    super.onScrolled(recyclerView, dx, dy);
                     RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
                     final int visibleItemCount = layoutManager.getChildCount();
                     final int totalItemCount = layoutManager.getItemCount();
                     Log.d(TAG, totalItemCount + " " + getLastVisiblePosition(layoutManager));
-                    if (!loading && !isLoadAll && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE &&
+                    if (!loading && !isLoadAll && visibleItemCount > 0 &&
                             (getLastVisiblePosition(layoutManager)) >= totalItemCount - 1) {
                         loading = true;
                         if (loadView != null) {

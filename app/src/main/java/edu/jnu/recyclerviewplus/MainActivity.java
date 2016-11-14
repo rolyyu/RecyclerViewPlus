@@ -169,8 +169,6 @@ public class MainActivity extends AppCompatActivity {
     static class ViewHolder {
         @BindView(R.id.header_title)
         TextView headerTitle;
-        @BindView(R.id.header_intro)
-        TextView headerIntro;
 
         ViewHolder(View view) {
             ButterKnife.bind(this, view);

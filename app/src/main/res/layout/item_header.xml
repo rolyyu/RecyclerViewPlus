@@ -12,12 +12,4 @@
         android:text="Header"
         android:textSize="32sp" />
 
-    <TextView
-        android:id="@+id/header_intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/header_title"
-        android:layout_centerInParent="true"
-        android:text="Intro"
-        android:textSize="16sp" />
 </RelativeLayout>
