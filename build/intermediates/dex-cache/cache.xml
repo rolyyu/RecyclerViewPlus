@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a53da3623139228eb5649c83f3c8cc00f0d024eb">
+        sha1="3ea9c08bb4fca4603a2fe27d5c6d88e361a5144c">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10af488b583c1cd835a03b59f8301928b185d44a/classes.dex" />
     </item>
     <item
@@ -142,11 +142,15 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
+<<<<<<< cd4fe879c720f2dc9a7878a7fe09730c698b248c
 <<<<<<< 66354c65a0c5343286a66baeecd933bd486340c0
         sha1="999b0e8a8eca33831c941767377ab826fdf21460">
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_10af488b583c1cd835a03b59f8301928b185d44a/classes.dex" />
 =======
         sha1="37d96d63486ed3ed56cd8d503ac56425a9d7ac33">
+=======
+        sha1="0a93feba8034a0cea34268e012a035f1a88141d8">
+>>>>>>> update .gitignore
         <dex dex="/Users/roly/Documents/GitHub/RecyclerViewPlus/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4425f0d61b75acf0328d5ee18a4a515e89d3b06e/classes.dex" />
 >>>>>>> 回滚
     </item>
